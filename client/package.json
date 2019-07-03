@@ -83,7 +83,8 @@
     "seamless-immutable": "7.0.1",
     "timeago": "0.2.0",
     "twitter-text": "1.14.3",
-    "validator": "6.2.1"
+    "validator": "6.2.1",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "preinstall": "./.npm-preinstall.sh",
@@ -96,7 +97,9 @@
     "build:prod": "NODE_ENV=production webpack --config webpack.config.coffee --bail",
     "watch:dev": "NODE_ENV=development webpack --config webpack.config.coffee --colors --debug --watch",
     "watch:prod": "NODE_ENV=production webpack --config webpack.config.coffee --colors --debug --watch",
-    "test:redux": "mocha-webpack --webpack-config webpack.config.test.js 'app/lib/redux/**/*.test.coffee'"
+    "test:redux": "mocha-webpack --webpack-config webpack.config.test.js 'app/lib/redux/**/*.test.coffee'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "browser": {
     "kd": "kd.js",
@@ -167,5 +170,6 @@
     "webpack-bundle-analyzer": "2.2.1",
     "webpack-notifier": "1.5.0",
     "yargs": "6.6.0"
-  }
+  },
+  "snyk": true
 }
