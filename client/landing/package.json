@@ -14,7 +14,9 @@
     }
   ],
   "scripts": {
-    "postinstall": "./.npm-postinstall.sh"
+    "postinstall": "./.npm-postinstall.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "geopattern": "1.2.3",
@@ -22,7 +24,8 @@
     "jquery": "3.1.1",
     "js-cookie": "2.1.3",
     "kd.js": "1.2.2",
-    "payment": "2.1.4"
+    "payment": "2.1.4",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "bluebird": "3.4.7",
@@ -47,5 +50,6 @@
     "imagemin-pngquant": "5.0.0",
     "minimist": "1.2.0",
     "vinyl-source-stream": "1.1.0"
-  }
+  },
+  "snyk": true
 }
