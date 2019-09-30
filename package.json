@@ -59,7 +59,7 @@
     "googleapis": "16.0.0",
     "gulp": "3.9.1",
     "hat": "0.0.3",
-    "helmet": "3.3.0",
+    "helmet": "3.21.1",
     "highlight.js": "9.9.0",
     "htmlencode": "0.0.4",
     "ip": "1.1.4",
