@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - amqp > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - dogapi > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - opentok > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - coffee-unused > async > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - googleapis > async > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - opentok > opentok-token > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
+    - yield-siftscience > request > form-data > async > lodash:
+        patched: '2020-05-01T05:30:56.587Z'
