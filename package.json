@@ -20,13 +20,13 @@
   },
   "dependencies": {
     "amqp": "0.2.6",
-    "analytics-node": "2.1.0",
+    "analytics-node": "2.1.1",
     "appmetrics": "3.0.2",
     "async": "1.5.0",
     "aws-sdk": "2.7.21",
     "backoff": "2.5.0",
     "bluebird": "3.4.7",
-    "body-parser": "1.15.2",
+    "body-parser": "1.19.2",
     "busboy": "0.2.13",
     "cache-manager": "2.3.0",
     "cli-table": "0.3.1",
@@ -48,10 +48,10 @@
     "disposable-email-domains": "1.0.14",
     "dns": "0.2.2",
     "dogapi": "2.6.0",
-    "embedly": "2.1.0",
+    "embedly": "2.1.1",
     "es": "0.5.2",
     "eventemitter2": "3.0.1",
-    "express": "4.14.0",
+    "express": "4.17.3",
     "faker": "3.1.0",
     "geoip-lite": "1.1.8",
     "github": "7.3.1",
@@ -116,7 +116,7 @@
     "winston": "2.3.0",
     "winston-papertrail": "1.0.4",
     "xml2js": "0.4.17",
-    "yield-siftscience": "0.2.0"
+    "yield-siftscience": "0.2.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
