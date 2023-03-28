@@ -55,7 +55,7 @@
     "faker": "3.1.0",
     "geoip-lite": "1.1.8",
     "github": "7.3.1",
-    "gitlab": "1.7.1",
+    "gitlab": "3.0.0",
     "googleapis": "16.0.0",
     "gulp": "3.9.1",
     "hat": "0.0.3",
